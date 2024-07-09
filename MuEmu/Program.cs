@@ -124,6 +124,7 @@ namespace MuEmu
 
             ServerMessages.Initialize();
             ServerMessages.LoadMessages("./Data/Lang/ServerMessages(es).xml");
+            
 
             if (!File.Exists("./Server.xml"))
             {
@@ -441,6 +442,12 @@ namespace MuEmu
             {
                 var input = Console.ReadLine();
                 if (input == null)
+                    break;
+
+                if (!Handler.ProcessCommands(null, input))
+                    Log.Information($"Command not found: {input}");
+
+                if (input == "exit")
                     break;
 
                 Handler.ProcessCommands(null, input);

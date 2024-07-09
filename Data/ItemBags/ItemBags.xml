@@ -68,53 +68,53 @@
   <ItemBag Monster="80" Bag="Golden Invation/GoldenLizardKing.xml" />
   <ItemBag Monster="82" Bag="Golden Invation/GoldenTantalos.xml" />
   <ItemBag Monster="53" Bag="Golden Invation/GoldenTitan.xml" />
-  <ItemBag Monster="413" Bag="Moon Rabbit\BlueEvent.xml" />
+  <ItemBag Monster="413" Bag="Moon Rabbit/BlueEvent.xml" />
   <!-- Shadow of Kundun -->
-  <ItemBag Monster="161" Bag="Kundun\Kundun.xml" />
-  <ItemBag Monster="181" Bag="Kundun\Kundun.xml" />
-  <ItemBag Monster="189" Bag="Kundun\Kundun.xml" />
-  <ItemBag Monster="197" Bag="Kundun\Kundun.xml" />
-  <ItemBag Monster="267" Bag="Kundun\Kundun.xml" />
+  <ItemBag Monster="161" Bag="Kundun/Kundun.xml" />
+  <ItemBag Monster="181" Bag="Kundun/Kundun.xml" />
+  <ItemBag Monster="189" Bag="Kundun/Kundun.xml" />
+  <ItemBag Monster="197" Bag="Kundun/Kundun.xml" />
+  <ItemBag Monster="267" Bag="Kundun/Kundun.xml" />
   <!-- Illusion of Kundun -->
-  <ItemBag Monster="275" Bag="Kundun\Kundun.xml" />
-  <ItemBag Monster="338" Bag="Kundun\Kundun.xml" />
+  <ItemBag Monster="275" Bag="Kundun/Kundun.xml" />
+  <ItemBag Monster="338" Bag="Kundun/Kundun.xml" />
   <!-- Golden Kundun -->
-  <ItemBag Monster="657" Bag="Kundun\Kundun.xml" />
+  <ItemBag Monster="657" Bag="Kundun/Kundun.xml" />
   <!-- Maya Hand -->
-  <ItemBag Monster="362" Bag="Kanturu Event\KanturuMayaHand.xml" />
-  <ItemBag Monster="363" Bag="Kanturu Event\KanturuMayaHand.xml" />
+  <ItemBag Monster="362" Bag="Kanturu Event/KanturuMayaHand.xml" />
+  <ItemBag Monster="363" Bag="Kanturu Event/KanturuMayaHand.xml" />
   <!-- Nightmare -->
-  <ItemBag Monster="361" Bag="Kanturu Event\KanturuNightmare.xml" />
+  <ItemBag Monster="361" Bag="Kanturu Event/KanturuNightmare.xml" />
   <!-- White Wizard -->
-  <ItemBag Monster="135" Bag="White Wizard\WhiteWizard.xml" />
-  <ItemBag Monster="136" Bag="White Wizard\OrcSoldier.xml" />
-  <ItemBag Monster="137" Bag="White Wizard\OrcArcher.xml" />
+  <ItemBag Monster="135" Bag="White Wizard/WhiteWizard.xml" />
+  <ItemBag Monster="136" Bag="White Wizard/OrcSoldier.xml" />
+  <ItemBag Monster="137" Bag="White Wizard/OrcArcher.xml" />
 	<!-- Raklion - Selupan -->
-  <ItemBag Monster="459" Bag="Raklion\Selupan.xml" />
+  <ItemBag Monster="459" Bag="Raklion/Selupan.xml" />
 	<!-- Obelisk -->
-	<ItemBag Monster="627" Bag="Acheron Guardian\Cursed Fire Tower.xml" />
-	<ItemBag Monster="628" Bag="Acheron Guardian\Cursed Water Tower.xml" />
-	<ItemBag Monster="629" Bag="Acheron Guardian\Cursed Earth Tower.xml" />
-	<ItemBag Monster="630" Bag="Acheron Guardian\Cursed Wind Tower.xml" />
-	<ItemBag Monster="631" Bag="Acheron Guardian\Cursed Darkness Tower.xml" />
+	<ItemBag Monster="627" Bag="Acheron Guardian/Cursed Fire Tower.xml" />
+	<ItemBag Monster="628" Bag="Acheron Guardian/Cursed Water Tower.xml" />
+	<ItemBag Monster="629" Bag="Acheron Guardian/Cursed Earth Tower.xml" />
+	<ItemBag Monster="630" Bag="Acheron Guardian/Cursed Wind Tower.xml" />
+	<ItemBag Monster="631" Bag="Acheron Guardian/Cursed Darkness Tower.xml" />
 	<!-- MossMerchant -->
-	<ItemBag Monster="492" Plus="0" Bag="Moss Merchant\Moss Sword Box.xml" />
-	<ItemBag Monster="492" Plus="1" Bag="Moss Merchant\Moss Bow Box.xml" />
-	<ItemBag Monster="492" Plus="2" Bag="Moss Merchant\Moss Staff Box.xml" />
-	<ItemBag Monster="492" Plus="3" Bag="Moss Merchant\Moss Stick Box.xml" />
-	<ItemBag Monster="492" Plus="4" Bag="Moss Merchant\Moss Scepter Box.xml" />
-	<ItemBag Monster="492" Plus="8" Bag="Moss Merchant\Mastery Accessory Box.xml" />
-	<ItemBag Monster="492" Plus="9" Bag="Moss Merchant\Guardian Pet Box.xml" />
+	<ItemBag Monster="492" Plus="0" Bag="Moss Merchant/Moss Sword Box.xml" />
+	<ItemBag Monster="492" Plus="1" Bag="Moss Merchant/Moss Bow Box.xml" />
+	<ItemBag Monster="492" Plus="2" Bag="Moss Merchant/Moss Staff Box.xml" />
+	<ItemBag Monster="492" Plus="3" Bag="Moss Merchant/Moss Stick Box.xml" />
+	<ItemBag Monster="492" Plus="4" Bag="Moss Merchant/Moss Scepter Box.xml" />
+	<ItemBag Monster="492" Plus="8" Bag="Moss Merchant/Mastery Accessory Box.xml" />
+	<ItemBag Monster="492" Plus="9" Bag="Moss Merchant/Guardian Pet Box.xml" />
 	<!--ELDORADO SERVER OFICIAL-->
-	<!--<ItemBag Monster="492" Plus="5" Bag="Moss Merchant\Section5.xml" />-->
-	<!--<ItemBag Monster="492" Plus="6" Bag="Moss Merchant\Section6.xml" />-->
-	<!--<ItemBag Monster="492" Plus="7" Bag="Moss Merchant\Section7.xml" />-->
-	<!--<ItemBag Monster="492" Plus="10" Bag="Moss Merchant\Section10.xml" />-->
+	<!--<ItemBag Monster="492" Plus="5" Bag="Moss Merchant/Section5.xml" />-->
+	<!--<ItemBag Monster="492" Plus="6" Bag="Moss Merchant/Section6.xml" />-->
+	<!--<ItemBag Monster="492" Plus="7" Bag="Moss Merchant/Section7.xml" />-->
+	<!--<ItemBag Monster="492" Plus="10" Bag="Moss Merchant/Section10.xml" />-->
 	<!--Jewelry Bingo-->
-	<ItemBag Item="7576" Bag="Jewelry Bingo\LowerBox.xml" />
-	<ItemBag Item="7577" Bag="Jewelry Bingo\IntermediateBox.xml" />
-	<ItemBag Item="7578" Bag="Jewelry Bingo\AdvancedBox.xml" />
-	<ItemBag Item="7579" Bag="Jewelry Bingo\PremiumBox.xml" />
+	<ItemBag Item="7576" Bag="Jewelry Bingo/LowerBox.xml" />
+	<ItemBag Item="7577" Bag="Jewelry Bingo/IntermediateBox.xml" />
+	<ItemBag Item="7578" Bag="Jewelry Bingo/AdvancedBox.xml" />
+	<ItemBag Item="7579" Bag="Jewelry Bingo/PremiumBox.xml" />
 	<!--Muun-->
 	<ItemBag Item="6625" Bag="Event Egg/Desmodus Egg.xml" />
 	<!-- WareRabbit Egg -->
