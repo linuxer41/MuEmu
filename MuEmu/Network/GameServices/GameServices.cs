@@ -401,7 +401,7 @@ namespace MuEmu.Network.GameServices
             var Source = inv.Get(message.Source);
 
             Logger.Debug("CUseItem Source:{0} Target:{1} Type:{2} ItemSource:{3}", message.Source, message.Dest, message.Type, Source);
-
+            Logger.Debug($"Source.BasicInfo.Skill: {Source.BasicInfo.Skill}");
             if (Source.BasicInfo.Skill != Spell.None)
             {
                 if (await @char.Spells.TryAdd(Source.BasicInfo.Skill))
