@@ -1,0 +1,40 @@
+2025-02-15 17:13:42.012 -04:00 [INF] Set Value for xml.apiKey type String, Default value api-20220426
+2025-02-15 17:13:42.026 -04:00 [INF] Clear for default
+2025-02-15 17:14:49.481 -04:00 [INF] Set Value for xml.apiKey type String, Default value api-20220426
+2025-02-15 17:14:49.495 -04:00 [INF] Clear for default
+2025-02-15 17:14:51.533 -04:00 [INF] Set Value for xml.IP type String, Default value 127.0.0.1
+2025-02-15 17:14:51.535 -04:00 [INF] Clear for default
+2025-02-15 17:14:53.185 -04:00 [INF] Set Value for xml.IPChat type String, Default value 127.0.0.1
+2025-02-15 17:14:53.187 -04:00 [INF] Clear for default
+2025-02-15 17:14:54.604 -04:00 [INF] Set Value for xml.DataBase.IP type String, Default value 127.0.0.1
+2025-02-15 17:14:54.608 -04:00 [INF] Clear for default
+2025-02-15 17:14:55.889 -04:00 [INF] Set Value for xml.DataBase.Name type String, Default value MuOnline
+2025-02-15 17:14:55.891 -04:00 [INF] Clear for default
+2025-02-15 17:14:57.869 -04:00 [INF] Set Value for xml.DataBase.User type String, Default value root
+2025-02-15 17:14:57.871 -04:00 [INF] Clear for default
+2025-02-15 17:14:59.623 -04:00 [INF] Set Value for xml.DataBase.Password type String, Default value 
+2025-02-15 17:14:59.624 -04:00 [INF] Clear for default
+2025-02-15 17:15:04.774 -04:00 [INF] API Key for GameServers is api-20220426
+2025-02-15 17:15:04.778 -04:00 [INF] Connection String is Server=127.0.0.1;port=3306;Database=MuOnline;user=root;password=anarkia41;Convert Zero Datetime=True;
+2025-02-15 17:15:04.790 -04:00 [INF] Started on TCP-IP:127.0.0.1 TCP-PORT:44405
+2025-02-15 17:15:04.793 -04:00 [INF] Started on TCP-IP:127.0.0.1 TCP-PORT:55980
+2025-02-15 17:15:05.149 -04:00 [INF] New Client added at index 1
+2025-02-15 17:15:05.239 -04:00 [ERR] Auth Token invalid
+2025-02-15 17:15:05.245 -04:00 [INF] Sending Server list 0 servers
+2025-02-15 17:15:15.157 -04:00 [ERR] Auth Token invalid
+2025-02-15 17:15:25.161 -04:00 [ERR] Auth Token invalid
+2025-02-15 17:15:35.162 -04:00 [ERR] Auth Token invalid
+2025-02-15 17:15:45.176 -04:00 [ERR] Auth Token invalid
+2025-02-15 17:15:51.137 -04:00 [INF] Client at Index 1 closed
+2025-02-15 17:15:56.584 -04:00 [INF] API Key for GameServers is 2020110116
+2025-02-15 17:15:56.602 -04:00 [INF] Connection String is Server=127.0.0.1;port=3306;Database=MuOnline;user=root;password=anarkia41;Convert Zero Datetime=True;
+2025-02-15 17:15:56.612 -04:00 [INF] Started on TCP-IP:127.0.0.1 TCP-PORT:44405
+2025-02-15 17:15:56.614 -04:00 [INF] Started on TCP-IP:127.0.0.1 TCP-PORT:55980
+2025-02-15 17:16:10.869 -04:00 [INF] New Client added at index 1
+2025-02-15 17:16:10.971 -04:00 [INF] New server found [0]GameServer NoPVP 127.0.0.1:55901 SHOW
+2025-02-15 17:16:10.978 -04:00 [INF] Sending Server list 1 servers
+2025-02-15 17:19:30.355 -04:00 [INF] Client at Index 1 closed
+2025-02-15 17:19:30.363 -04:00 [INF] Server 0 dead
+2025-02-15 17:19:45.176 -04:00 [INF] New Client added at index 1
+2025-02-15 17:19:45.238 -04:00 [INF] New server found [0]GameServer NoPVP 127.0.0.1:55901 SHOW
+2025-02-15 17:19:45.240 -04:00 [INF] Sending Server list 1 servers

@@ -1,13 +1,13 @@
 // dllmain.cpp : Define el punto de entrada de la aplicación DLL.
 #include "pch.h"
-#include "../../CryptoPP/cryptlib.h"
-#include "../../CryptoPP/modes.h"
-#include "../../CryptoPP/aes.h"
+#include "../../cryptopp890/cryptlib.h"
+#include "../../cryptopp890/modes.h"
+#include "../../cryptopp890/aes.h"
 #include "Offsets.h"
 #include "Protocol.h"
 #include "Util.h"
 #include "MiniDump.h"
-#pragma comment(lib,"../../CryptoPP/Win32/Output/Release/cryptlib.lib")
+#pragma comment(lib,"../../cryptopp890/Win32/Output/Release/cryptlib.lib")
 
 LPBYTE _GetStartupInfoA = (LPBYTE)GetProcAddress(GetModuleHandle(L"kernel32.dll"), "GetStartupInfoA");
 LPBYTE _OutputDebugStringA = (LPBYTE)GetProcAddress(GetModuleHandle(L"kernel32.dll"), "OutputDebugStringA");

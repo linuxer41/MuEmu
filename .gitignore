@@ -301,3 +301,5 @@ __pycache__/
 *.lnk
 /Data/Monsters/MonsterSetBaseCS2.txt
 /Server.xml
+
+logs

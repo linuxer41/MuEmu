@@ -443,7 +443,10 @@ namespace MuEmu
                 if (input == null)
                     break;
 
-                Handler.ProcessCommands(null, input);
+                if (!Handler.ProcessCommands(null, input))
+                    Log.Information($"Command not found: {input}");
+                if (input == "exit")
+                    break;
             }
         }
 
@@ -662,14 +665,14 @@ namespace MuEmu
                 .AddEvent(Events.Events.MoonRabbit, new MoonRabbit())
                 .AddEvent(Events.Events.WhiteWizard, new WhiteWizard())
                 .AddEvent(Events.Events.EventEgg, new EventEgg())
-                .AddEvent(Events.Events.MuRummy, new MuRummy(Program.XMLConfiguration.Files.MGMuRummy))
+                .AddEvent(Events.Events.MuRummy, new MuRummy(XMLConfiguration.Files.DataRoot + XMLConfiguration.Files.MGMuRummy))
                 .AddEvent(Events.Events.CastleSiege, new CastleSiege())
                 .AddEvent(Events.Events.Raklion, new BattleOfSelupan())
                 .AddEvent(Events.Events.AcheronGuardian, new AcheronGuardian())
                 //.AddEvent(Events.Events.DoubleGoer, new DoubleGoer())
-                .AddEvent(Events.Events.MineSweeper, new MineSweeper(Program.XMLConfiguration.Files.MGFindBombs))
-                .AddEvent(Events.Events.JeweldryBingo, new JeweldryBingo(Program.XMLConfiguration.Files.MGJewelBingo))
-                .AddEvent(Events.Events.BallsAndCows, new BallsAndCows(Program.XMLConfiguration.Files.MGBallsAndCows))
+                .AddEvent(Events.Events.MineSweeper, new MineSweeper(XMLConfiguration.Files.DataRoot + XMLConfiguration.Files.MGFindBombs))
+                .AddEvent(Events.Events.JeweldryBingo, new JeweldryBingo(XMLConfiguration.Files.DataRoot + XMLConfiguration.Files.MGJewelBingo))
+                .AddEvent(Events.Events.BallsAndCows, new BallsAndCows(XMLConfiguration.Files.DataRoot + XMLConfiguration.Files.MGBallsAndCows))
                 ;
             LuckyCoins.Initialize();
             EventChips.Initialize();

@@ -67,18 +67,18 @@ namespace MuEmu.Resources.XML
     public class FilesInfoDto
     {
         [XmlElement] public string DataRoot { get; set; } = "./Data/";
-        [XmlElement] public string Monsters { get; set; } = "./Data/Monsters/Monster";
-        [XmlElement] public string MonsterSetBase { get; set; } = "./Data/Monsters/MonsterSetBase";
-        [XmlElement] public string SelupanPatterns { get; set; } = "./Data/Monsters/PatternSelupan.xml";
-        [XmlElement] public string MapServer { get; set; } = "./Data/MapServer.xml";
-        [XmlElement] public string MayaLeftHandPatterns { get; set; } = "./Data/Monsters/PatternMayaLeftHand.xml";
-        [XmlElement] public string MayaRightHandPatterns { get; set; } = "./Data/Monsters/PatternMayaRightHand.xml";
-        [XmlElement] public string NightmarePatterns { get; set; } = "./Data/Monsters/PatternNightmare.xml";
-        [XmlElement] public string QuestWorld { get; set; } = "./Data/QuestWorld/";
-        [XmlElement] public string MGMuRummy { get; set; } = "./Data/MiniGames/MuRummy.xml";
-        [XmlElement] public string MGFindBombs { get; set; } = "./Data/MiniGames/FindBombs.xml";
-        [XmlElement] public string MGJewelBingo { get; set; } = "./Data/MiniGames/JewelBingo.xml";
-        [XmlElement] public string MGBallsAndCows { get; set; } = "./Data/MiniGames/BallsAndCows.xml";
+        [XmlElement] public string Monsters { get; set; } = "Monsters/Monster";
+        [XmlElement] public string MonsterSetBase { get; set; } = "Monsters/MonsterSetBase";
+        [XmlElement] public string SelupanPatterns { get; set; } = "Monsters/PatternSelupan.xml";
+        [XmlElement] public string MapServer { get; set; } = "MapServer.xml";
+        [XmlElement] public string MayaLeftHandPatterns { get; set; } = "Monsters/PatternMayaLeftHand.xml";
+        [XmlElement] public string MayaRightHandPatterns { get; set; } = "Monsters/PatternMayaRightHand.xml";
+        [XmlElement] public string NightmarePatterns { get; set; } = "Monsters/PatternNightmare.xml";
+        [XmlElement] public string QuestWorld { get; set; } = "QuestWorld/";
+        [XmlElement] public string MGMuRummy { get; set; } = "MiniGames/MuRummy.xml";
+        [XmlElement] public string MGFindBombs { get; set; } = "MiniGames/FindBombs.xml";
+        [XmlElement] public string MGJewelBingo { get; set; } = "MiniGames/JewelBingo.xml";
+        [XmlElement] public string MGBallsAndCows { get; set; } = "MiniGames/BallsAndCows.xml";
     }
 
     [XmlType(AnonymousType = true)]

@@ -1,33 +1,31 @@
-﻿[![Discord](https://img.shields.io/discord/419270829562396672)](https://discord.gg/Yfwu8hQ)
- [![Issues](https://img.shields.io/github/issues/Yomalex/MuEmu)](https://github.com/Yomalex/MuEmu/issues)
- [![Commits](https://img.shields.io/github/commit-activity/m/Yomalex/MuEmu)](https://github.com/Yomalex/MuEmu/commits/master)
-[Client Season 9](https://github.com/Yomalex/IGCN-v9.5-MuServer-S9EP2/tree/master/zClient)
+﻿[![Discord](https://img.shields.io/discord/419270829562396672)](https://discord.gg/Yfwu8hQ)  
+[![Issues](https://img.shields.io/github/issues/Yomalex/MuEmu)](https://github.com/Yomalex/MuEmu/issues)  
+[![Commits](https://img.shields.io/github/commit-activity/m/Yomalex/MuEmu)](https://github.com/Yomalex/MuEmu/commits/master)  
 
-# Mu Online Server Emulator C#
+# Mu Online Server Emulator C# - Season 16 Edition
 
-It is a version of the MU Online Server written in C # NetCore3.1 for compatibility on all platforms
-Now is listed to support:
-- Season 6 Korean
-![Season 6 Korean](https://github.com/Yomalex/MuEmu/blob/master/Captura%20de%20pantalla%202024-06-30%20101242.png?raw=true)
-- Season 9 English
-- Season 12 Korean
-- Season 16 Korean
-- Season 17 Korean
-![Season 17 Korean](https://github.com/Yomalex/MuEmu/blob/master/Captura%20de%20pantalla%202024-03-24%20082942.png?raw=true)
+This project is inspired by the original [MuEmu repository](https://github.com/Yomalex/MuEmu), but it focuses exclusively on supporting **Season 16** of Mu Online. It is a version of the MU Online Server written in **C# NetCore3.1** for compatibility across all platforms.
 
-# Servers included
+---
 
-This repository includes several projects where the code is distributed, additionally the distribution could be changed to improve efficiency
+## Supported Version
+- **Season 16 Korean**
 
-## ConnectServer
+![Season 16 Korean](https://github.com/Yomalex/MuEmu/blob/master/Captura%20de%20pantalla%202024-06-30%20101242.png?raw=true)
 
-Automatically detects the servers connected to it and depending on its configuration, shows or not in the list of servers that are linked to it
+---
 
-## GameServer
+## Servers Included
+This repository includes several projects where the code is distributed. The distribution can be modified to improve efficiency.
 
-He is the star of this project and in charge of managing all the features of the game. It connects to the ConnectServer and sends important information such as the IP, usage statistics and if it will be shown in the list of servers or not.
-This server automatically creates the structure of your Database, it works with MySql Server.
+### ConnectServer
+Automatically detects the servers connected to it and, depending on its configuration, shows or hides them in the server list.
+
+### GameServer
+The core of this project, responsible for managing all game functionalities. It connects to the ConnectServer and sends important information such as the IP, usage statistics, and whether it will be shown in the server list or not.  
+This server automatically creates the structure of your Database, and it works with MySql Server.  
 It includes a list of commands that will grow over time.
+
 
 ### Configuration file
 The configuration comes in XML, in the server.xml file, generated automatically when the Server is opened.
@@ -177,3 +175,14 @@ The configuration comes in XML, in the server.xml file, generated automatically 
 ### Operation files
 
 It requires common files from MuOnline servers, it is designed to read Season 6 version files and others of our own design in XML, some files are automatically translated from .txt to .xml for better handling on the server.
+
+### Development in vs code command line
+
+- Connect server
+``` bash
+dotnet run --project CSEmu/CSEmu.csproj
+```
+- Game server
+``` bash
+dotnet run --project MuEmu/MuEmu.csproj
+```
